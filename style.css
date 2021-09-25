@@ -1,0 +1,39 @@
+body {
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image: url("weather-background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+#search-box{
+    margin-left: 10px;
+}
+
+#error-msg {
+    color: red;
+    visibility: hidden;
+}
+
+#main-weather {
+    max-width: 500px;
+    height : 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+#details {
+    font-size: 20px;
+    margin-top: 75px
+}
+
+#general {
+    font-size: 20px;
+}
+#farenheight {
+    font-size: 65px;
+    font-weight: bold;
+}
