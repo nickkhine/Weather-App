@@ -12,7 +12,7 @@ searchBox.addEventListener('keydown', (e) => {
 
 async function getData(city) {
     try {
-        const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&APPID=d624892761d86e37e3f0f91649971232`,{mode: 'cors'});
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&APPID=d624892761d86e37e3f0f91649971232`,{mode: 'cors'});
         console.log(response);
         const data = await response.json();
         console.log(data);
